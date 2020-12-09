@@ -6,8 +6,7 @@ html, body, #home {
 }
 
 body {
-	background: url(../imgs/capa.png),
-				url(../imgs/ruido.png),
+	background: url(../imgs/fundo3.jpg),
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
@@ -55,15 +54,6 @@ nav.navbar-transparente {
     padding: 10px 20px;
 }
 
-.btn-roxo {
-	background: #7c25f8;
-}
-
-.btn-roxo:hover {
-	background: #6207e3;
-	color: white;
-}
-
 .btn-branco {
 	border: 2px solid white;
 }
@@ -82,6 +72,7 @@ nav.navbar-transparente {
 .caixa {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	color: #000;
 }
 
 #servicos {
@@ -151,16 +142,17 @@ footer ul li {
 /* Tipografia
 -----------------------------*/
 h1 {
-	font-weight: 900;
+	font-weight: 600;
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 	color: white;
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 5em;
 	font-weight: 700;
 	letter-spacing: -0.04em;
+	color: white;
 }
 
 h3 {
