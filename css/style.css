@@ -6,7 +6,7 @@ html, body, #home {
 }
 
 body {
-	background: url(../imgs/fundo3.jpg),
+	background: url(../imgs/fundo\ principal.jpg),
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
@@ -36,6 +36,17 @@ nav.navbar-transparente {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-menu a:hover {
+    text-decoration: none;
+    color: #7c12f8;
+    background: #fff;
 }
 
 /* Capa
@@ -159,6 +170,20 @@ h3 {
 	font-size: 2em;
 	font-weight: 700;
 	letter-spacing: -0.04em;
+}
+
+#home li {
+	font-size: 1.6em;
+	font-weight: 700;
+	color: white;
+	letter-spacing: -0.04em;
+	list-style-type: none;
+}
+
+#home #info span {
+	margin: 0px 10px 0px 0px ;
+	text-decoration: underline;
+	text-decoration-color:#7c12f8 ;
 }
 
 
