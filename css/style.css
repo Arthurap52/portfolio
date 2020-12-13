@@ -87,7 +87,7 @@ nav.navbar-transparente {
 }
 
 #servicos {
-	background: white;
+	background: #ddd;
 }
 
 #recursos {
@@ -170,23 +170,49 @@ h3 {
 	font-size: 2em;
 	font-weight: 700;
 	letter-spacing: -0.04em;
+	color: #000;
 }
 
-#home li {
-	font-size: 1.6em;
+p{ 
+	font-size: 1.0em;
 	font-weight: 700;
-	color: white;
+	letter-spacing: -0.04em;
+	padding: 0px 34px;
+}
+
+#servicos a{
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	text-decoration: none;
+	color: #000;
+}
+
+#servicos a:hover{
+	text-decoration: underline;
+	color: #7c12f8;
+}
+
+#servicos li {
+	font-size: 1.4em;
+	font-weight: 700;
 	letter-spacing: -0.04em;
 	list-style-type: none;
 }
 
-#home #info span {
-	margin: 0px 10px 0px 0px ;
+#servicos h3 {
+	text-decoration: underline;
+	text-decoration-color: #7c12f8;
+}
+
+#servicos li #info span {
 	text-decoration: underline;
 	text-decoration-color:#7c12f8 ;
 }
 
-
+#servicos img {
+	border-radius: 10px;
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
