@@ -117,6 +117,49 @@ nav.navbar-transparente {
 	padding-left: 80px;
 }
 
+/* Timeline 
+-----------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700");
+
+.timeline-item {
+  padding: 3em 2em 2em;
+  position: relative;
+  color: rgba(124, 37, 248, 0.7);
+  border-left: 2px solid rgba(124, 37, 248, 0.3);
+}
+.timeline-item p {
+  font-size: 1em;
+}
+.timeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 2em;
+  font-weight: bold;
+  top: 1em;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: .785rem;
+}
+.timeline-item::after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -7px;
+  border-radius: 10px;
+  content: '';
+  border: 2px solid rgba(155, 84, 255, 0.3);
+  background: black;
+}
+.timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, rgba(124, 37, 248, 0.3) 60%, transparent) 1 100%;
+     border-image: -webkit-linear-gradient(top, rgba(124, 37, 248, 0.3) 60%, transparent) 1 100%;
+     border-image: linear-gradient(to bottom, rgba(124, 37, 248, 0.3) 60%, transparent) 1 100%;
+}
+
 /* Rodapé
 -----------------------------*/
 footer {
@@ -173,12 +216,27 @@ h3 {
 	color: #000;
 }
 
+h4{
+	color: #000;
+}
+
+h6 {
+	color: #777;
+}
+
 p{ 
 	font-size: 1.0em;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	padding: 0px 34px;
+	color: #333;
 }
+
+.hr1 {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, #555, transparent);  
+  }
 
 #servicos a{
 	font-size: 1em;
@@ -212,6 +270,16 @@ p{
 
 #servicos img {
 	border-radius: 10px;
+}
+
+#linha-horizontal {
+    width: 300px;
+    border: 1px solid #000;
+}
+
+#xp img {
+	width: 300px;
+	height: 200px;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
