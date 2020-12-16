@@ -270,6 +270,8 @@ p{
 
 #servicos img {
 	border-radius: 10px;
+	width: 100%;
+	height: auto;
 }
 
 #linha-horizontal {
