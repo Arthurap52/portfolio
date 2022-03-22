@@ -16,11 +16,13 @@ Este é um repositório criado para ser meu site de Portfólio, onde fala um pou
 ## Layout Mobile 
 
 ### Inicio
-![mobile 1](https://github.com/Arthurap52/portfolio/blob/master/imgs/layouts/layout%20mobile%20inicio%202.png) 
+<img style="height: 500px;" alt="inicio-mobile" src="https://github.com/Arthurap52/portfolio/blob/master/imgs/layouts/layout%20mobile%20inicio%202.png" />
+
 ### Sobre
-![mobile 2](https://github.com/Arthurap52/portfolio/blob/master/imgs/layouts/layout%20mobile%20sobre.png)
+<img style="height: 500px;" alt="sobre-mobile" src="https://github.com/Arthurap52/portfolio/blob/master/imgs/layouts/layout%20mobile%20sobre.png" />
+
 ### Curriculo
-![mobile 3](https://github.com/Arthurap52/portfolio/blob/master/imgs/layouts/layout%20mobile%20curriculo.png)
+<img style="height: 500px;" alt="sobre-mobile" src="https://github.com/Arthurap52/portfolio/blob/master/imgs/layouts/layout%20mobile%20curriculo.png" />
 
 ## linguagens Utilizadas
 
