@@ -28,3 +28,5 @@ Este é um repositório criado para ser meu site de Portfólio, onde fala um pou
 
 ### Front End
 HTML, CSS, Javascript, Bootstrap.
+
+<p align="center">Made with ❤️ by José Arthur</p>
